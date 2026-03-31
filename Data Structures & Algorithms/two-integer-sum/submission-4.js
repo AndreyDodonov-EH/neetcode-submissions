@@ -5,6 +5,7 @@ class Solution {
      * @return {number[]}
      */
     twoSum(nums, target) {
+        // 1. sort
         let sorted = new Array(nums.length);
         for (let i=0; i<nums.length; i++) {
             sorted[i] = nums[i];
